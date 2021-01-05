@@ -103,6 +103,7 @@ h3{
   background-color: var(--darkViolet);
   height: 37.5em;
   width: 100%;
+  max-width: 1500px;
 }
 
 .left-side{
@@ -118,7 +119,7 @@ h3{
 .heading{
   font-size: 350%;
   line-height: 0.8;
-  width: 7em;
+  max-width: 7em;
   color: var(--veryLightGray);
   margin: 0em 2.75em 0.3em 0em
 }
@@ -127,7 +128,7 @@ h3{
   content: "";
   position: absolute;
   border-top: 1px solid;
-  width: 2em;
+  max-width: 2em;
   top: 20%;
 }
 
@@ -191,7 +192,7 @@ h3{
   content: "";
   position: absolute;
   border-top: 1px solid var(--grayishBlue);
-  width: 2em;
+  max-width: 2em;
   bottom: 105%;
   margin-bottom: 0.5em;
 }
@@ -204,7 +205,7 @@ h3{
 }
 
 .grid-item{
-  width: 22em;
+  max-width: 22em;
   margin-bottom: 6em;
 }
 
@@ -219,7 +220,7 @@ h3{
   justify-content: space-around;
   background-color: var(--darkViolet);
   height: 13em;
-  width: 69em;
+  max-width: 69em;
   margin: 0em 0em 8.5em 10.05em;
   background-image: url('/images/bg-pattern-how-we-work-desktop.svg');
   background-repeat: no-repeat;
@@ -228,7 +229,7 @@ h3{
 
 .main-footer > h1{
   color: var(--veryLightGray);
-  width: 8.7em;
+  max-width: 8.7em;
   line-height: 0.9;
 }
 
